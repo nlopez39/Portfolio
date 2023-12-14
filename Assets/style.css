@@ -1,0 +1,82 @@
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+   
+/* edit the navbar itself */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-left:25px;
+    
+    
+}
+.navbar a{
+    color:#fff;
+    padding:20px;
+}
+.navbar li:hover {
+    background-color: #4c9e9e;
+   
+  }
+.logo{
+    font-size: 32px;
+}
+/* the hero image under the nav */
+.hero{
+    height:800px;
+    margin-bottom: 25px;
+    background-image: url("../images/jeremy-bishop-G9i_plbfDgk-unsplash-2.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hero-title{
+    font-size: 3.5rem;
+
+    
+}
+.hero-sum{
+    font-size: 15px; 
+    font-weight: 600px;
+} 
+.about-me{
+    width: 75%;
+    padding: 10px;
+    display:inline-block;
+    margin-left:10%; 
+    
+}
+.about-title{
+    text-align: center;
+    padding:5px;
+}
+/* this will make the image of me stay to the left */
+.float-left {
+    width:200px;
+    float:left;
+    margin-right:30px;
+}
