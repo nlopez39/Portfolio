@@ -14,10 +14,10 @@
             <div class="logo">Nelly Lopez</div>
             <ul>
                 <li>
-                    <a href="about-me">About Me</a>
+                    <a href="#about-anchor">About Me</a>
                 </li>
                 <li>
-                    <a href="projects">Projects</a>
+                    <a href="#project-anchor">Projects</a>
                 </li>
                 <li>
                     <a href="contact-info">Contact Info</a>
@@ -28,23 +28,83 @@
     </header>
     <div class="hero"></div>
     <div class="hero-text">
-        <h2 class="hero-title">Hi, It's Nelly </h2>
+        <h1 class="hero-title">Hi, It's Nelly </h1>
         <p class="hero-sum">I am a professional FullStack Developer</p>
         
       </div>
     </div>
     <body>
+        <div class="about-container">
+        <div id="about-anchor"></div>
+        <h1 class="about-title">About Me</h1>
         <section class="about-me">
-            <h2 class="about-title">About Me</h2>
-            <img src="./images/2403B4EF-92A5-4988-9734-3B78C6F7FD30_1_201_a.heic" class="float-left">
-            <p>Computer Science graduate with two years of 
+            <!-- <h1 class="about-title">About Me</h1> -->
+            <img src="./images/2403B4EF-92A5-4988-9734-3B78C6F7FD30_1_201_a.heic" class="float-left"/>
+            <h2>Computer Science graduate with two years of 
                 experience in Tech Support, now enrolled in a web development bootcamp to strengthen 
                 skills in CSS, HTML, and Javascript. Eager to transition into a development role, leveraging a solid 
-                foundation in technology and ongoing training to contribute effectively to dynamic projects.</p>
+                foundation in technology and ongoing training to contribute effectively to dynamic projects.</h2>
         </section>
+        </div>
+        <div id="project-anchor"></div>
+        <h1 class="project-title">My Work</h1>
         <section class="project-section">
-            <h2 class="project-title">My Work</h2>
             
+            <div class="experience-container">
+                <div class="details-container">
+                    <div class="article-container">
+                        <img src="./images/code-1839406_1280.jpg" class="proj-img"/>
+                    </div>
+                    <h2 class="experience-sub-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="button-github" onclick="location.href='https://github.com'">Github
+                    </button>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="experience-container">
+                <div class="details-container">
+                    <div class="article-container">
+                        <img src="./images/interface-3614766_1280.png" class="proj-img"/>
+                    </div>
+                    <h2 class="experience-sub-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="button-github" onclick="location.href='https://github.com'">Github
+                    </button>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="experience-container">
+                <div class="details-container">
+                    <div class="article-container">
+                        <img src="./images/laptop-2620118_1280.jpg" class="proj-img"/>
+                    </div>
+                    <h2 class="experience-sub-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="button-github" onclick="location.href='https://github.com'">Github
+                    </button>
+                </div>
+                </div>
+
+            </div>
+            
+            
+
+        </section>
+        <div id="contact-anchor"></div>
+        <h1 class="contact-me">Contact Me</h1>
+        <section class="contact-container">
+            <div class="details-container">
+                <h2>LinkedIn</h2>
+                <p>This is my linked in link</p>
+
+                <h2>Github</h2>
+                <p>this is my github</p>
+            </div>
 
         </section>
     </body>
