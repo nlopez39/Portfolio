@@ -14,6 +14,8 @@ My objective in developing this site was to strike a balance between readability
 
 Feel free to explore, and thank you for considering my portfolio!
 
+**Link to Portfolio**: 
+
 ## Demo
 
 ![Portfolio Denmo](images/Portfolio-Gif.gif)
