@@ -19,8 +19,8 @@ body,html{
    
 /* the navbar*/
 .navbar{
-    display: flex;
-    align-items: center;
+    display:flex;
+    align-items:flex-end;
     justify-content: space-between;
     padding: 20px;
     background-color: teal;
@@ -45,6 +45,7 @@ body,html{
   }
   /* my name logo at the top */
 .logo{
+
     font-size: 32px;
 }
 /* the hero image under the nav */
@@ -211,6 +212,15 @@ body,html{
   .myface{
     margin-bottom:20px;
   }
+  
  /* Right code for the nav bar and cards */
- /* also need to figure out how this would look on a mobile device */
+ /* also need to figure out how this would look on a mobile device' */
 }
+@media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+  
+    }
+    
+  }
