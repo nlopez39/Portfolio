@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8"/>
+   
     <link rel="stylesheet" href="./Assets/style.css">
+
     <title>portfolio</title>
 </head>
 
@@ -20,7 +22,7 @@
                     <a href="#project-anchor">Projects</a>
                 </li>
                 <li>
-                    <a href="contact-info">Contact Info</a>
+                    <a href="#contact-anchor">Contact Me</a>
                 </li>
             </ul>
         </nav>
@@ -37,9 +39,9 @@
         <div class="about-container">
         <div id="about-anchor"></div>
         <h1 class="about-title">About Me</h1>
-        <section class="about-me">
+        <section class="about-details-container">
             <!-- <h1 class="about-title">About Me</h1> -->
-            <img src="./images/2403B4EF-92A5-4988-9734-3B78C6F7FD30_1_201_a.heic" class="float-left"/>
+            <img src="./images/2403B4EF-92A5-4988-9734-3B78C6F7FD30_1_201_a.heic" class="myface"/>
             <h2>Computer Science graduate with two years of 
                 experience in Tech Support, now enrolled in a web development bootcamp to strengthen 
                 skills in CSS, HTML, and Javascript. Eager to transition into a development role, leveraging a solid 
@@ -47,66 +49,49 @@
         </section>
         </div>
         <div id="project-anchor"></div>
-        <h1 class="project-title">My Work</h1>
-        <section class="project-section">
+            <h1 class="project-main-title">My Work</h1>
+        <section class="project-section-main">
             
-            <div class="experience-container">
-                <div class="details-container">
-                    <div class="article-container">
-                        <img src="./images/code-1839406_1280.jpg" class="proj-img"/>
-                    </div>
-                    <h2 class="experience-sub-title">Project One</h2>
-                <div class="btn-container">
-                    <button class="button-github" onclick="location.href='https://github.com'">Github
-                    </button>
-                </div>
+                <div class="project1-container">
+                    <a href="https://github.com/KiDs-Tracker/KiDsTracker"> <img src="./images/code-1839406_1280.jpg" class="proj1-img" alt="image of project 1"> </a>
+                    <!-- <img src="./images/code-1839406_1280.jpg" class="proj1-img" alt="image of project 1"/> -->
+                    <h2 class="project-sub-title">KidsTracker</h2>     
                 </div>
 
-            </div>
-
-            <div class="experience-container">
-                <div class="details-container">
-                    <div class="article-container">
-                        <img src="./images/interface-3614766_1280.png" class="proj-img"/>
-                    </div>
-                    <h2 class="experience-sub-title">Project Two</h2>
-                <div class="btn-container">
-                    <button class="button-github" onclick="location.href='https://github.com'">Github
-                    </button>
-                </div>
+                <section class="project-section">     
+                <div class="project-details-container">
+                    <a href="https://github.com/nlopez39/Contact-Manager"> <img src="./images/interface-3614766_1280.png" class="proj-img" alt="image of project 2"> </a>
+                            <!-- <img src="./images/interface-3614766_1280.png" class="proj-img"/> -->
+                            <h2 class="project-sub-title">Contact Manager</h2>
                 </div>
 
-            </div>
-
-            <div class="experience-container">
-                <div class="details-container">
-                    <div class="article-container">
-                        <img src="./images/laptop-2620118_1280.jpg" class="proj-img"/>
-                    </div>
-                    <h2 class="experience-sub-title">Project Three</h2>
-                <div class="btn-container">
-                    <button class="button-github" onclick="location.href='https://github.com'">Github
-                    </button>
-                </div>
-                </div>
-
-            </div>
+            <div class="project-detatils-container">
+                <a href="https://github.com/nlopez39/Birthday-Message-Sender"> <img src="./images/laptop-2620118_1280.jpg" class="proj-img" alt="image of project 3"> </a>
+                        <!-- <img src="./images/laptop-2620118_1280.jpg" class="proj-img"/> -->
+                        <h2 class="project-sub-title">Birthday Message Sender</h2>
             
-            
-
+            </div>
+          </section>
         </section>
+       
+
+        
+           
         <div id="contact-anchor"></div>
-        <h1 class="contact-me">Contact Me</h1>
-        <section class="contact-container">
-            <div class="details-container">
-                <h2>LinkedIn</h2>
-                <p>This is my linked in link</p>
-
-                <h2>Github</h2>
-                <p>this is my github</p>
+        <h1 class="contact-title">Contact Me</h1>
+        <footer class="contact-container">
+            <div class="links-container">
+                <a href="https://www.linkedin.com/in/nelly-lopez/">LinkedIn</a>
+            </div>
+            <div class="links-container">
+                <a href="https://github.com/nlopez39">GitHub</a>
             </div>
 
-        </section>
+            <div class="phone-number">
+                <p>Phone: 444-444-4444</p>
+            </div>
+                
+        </footer>
     </body>
 
    
