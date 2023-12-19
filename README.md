@@ -14,7 +14,7 @@ My objective in developing this site was to strike a balance between readability
 
 Feel free to explore, and thank you for considering my portfolio!
 
-**Link to Portfolio**: 
+**Link to Portfolio**: https://nlopez39.github.io/Portfolio/
 
 ## Demo
 
