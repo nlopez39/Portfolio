@@ -9,13 +9,15 @@ li {
 a {
     text-decoration: none;
 }
-body{
+body,html{
     font-family: "Poppins", sans-serif;
-    /* background-color: yellow; */
+    margin:0; 
+    padding:0; 
+    height: 100%; 
 }
-
+/* ------------------------------------------------------ NAVBAR------------------------------------------------------------- */
    
-/* edit the navbar itself */
+/* the navbar*/
 .navbar{
     display: flex;
     align-items: center;
@@ -24,21 +26,24 @@ body{
     background-color: teal;
     color: #fff;
 }
-
+/* nav bar menu items */
 .navbar li{
     display: inline-block;
     margin-left:25px;
     
     
 }
+/*links on nav bar */
 .navbar a{
     color:#fff;
     padding:20px;
 }
+/* hover property for each menu option */
 .navbar li:hover {
     background-color: #4c9e9e;
    
   }
+  /* my name logo at the top */
 .logo{
     font-size: 32px;
 }
@@ -49,9 +54,11 @@ body{
     background-image: url("../images/jeremy-bishop-G9i_plbfDgk-unsplash-2.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
   
 
 }
+/* hero Text container */
 .hero-text{
     text-align: center;
     position: absolute;
@@ -60,13 +67,17 @@ body{
     transform: translate(-50%, -50%);
     color: white;
 }
+/* hello its nelly */
 .hero-title{
     font-size: 3.5rem;   
 }
+/* summary paragraph */
 .hero-sum{
     font-size: 15px; 
     font-weight: 600px;
 } 
+/* ---------------------------------------------- ABOUT SECTION------------------------------------ */
+
 .about-title{
     padding-top:25px;
     text-align: center;
@@ -77,9 +88,10 @@ body{
 .about-container{
     background-color:  rgb(144, 210, 210);
     height:100%;
+    width: 100%;
     
 }
-.about-me{
+.about-details-container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -89,33 +101,54 @@ body{
     background-color: rgb(144, 210, 210);
    
 }
-.about-me h2{
+.about-details-container h2{
     
     font-family: 'Courier New', monospace;
     text-align: left; 
     
-    
 }
 
 /* this will make the image of me stay to the left */
-.float-left {
+.myface {
     width:200px;
-    float:left;
     margin-right:30px;
 }
-/* project section */
-.project-section {
+/* ---------------------------------------------- PROJECT SECTION------------------------------------ */
+.project-main-title {
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* this holds all three cards */
+.project-section-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:4rem;
+    margin-bottom:10rem;
+    padding:40px; 
+    /* background-color: #3e5858; */
+}
+.project-section{
+    margin-top:50px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 20px; /* Adjust the padding based on your design */
-    background-color: #3e5858;
+}
+.project1-container{
+    height:30rem;
 }
 
-.project-title {
-    text-align: center;
-    background-color: aquamarine;
-    
+.project1-title, .project-sub-title{
+    text-align: left;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.proj1-img{
+    border-radius: 3rem;
+    width:100%;
+    height:90%;
+
 }
 .proj-img{
     border-radius: 2rem;
@@ -123,34 +156,61 @@ body{
     height:90%;
 
 }
-.button-github{
-    border-radius: 10rem;
-    /* border-color: rgb(163, 163, 163); */
-    background-color: teal;
-    padding: 15px; 
-    font-size: 16px;
-}
-.btn-container{
-    display: flex;
-    justify-content: center;
-    /* gap: 1rem; */
-}
-.button-github:hover{
-    background-color: bisque;
-}
-.proj-img:hover{
+
+.proj-img:hover, .proj1-img:hover{
     opacity: 0.3;
     background-color: aquamarine;
     
 }
-
-/* contact section  */
+/* ---------------------------------------------- CONTACT SECTION------------------------------------ */
 
 .contact-container{
-    display: flex;
+    display: flex; 
     flex-direction: row;
-    align-items: center;
+    justify-content: space-evenly;
+    background-color: teal;
+    width: 100%; /* Adjust the width as needed */
+    /* Center the container horizontally */
+    padding: 5%; 
 
-    padding: 20px; /* Adjust the padding based on your design */
+}
+/* this is the title  */
+.contact-title
+{
+    margin-top:25px; 
+    text-align: center;
+    background-color: teal;
+    color: #fff;
+   
+}
+.contact-container h2{
+    border: solid rgba(29, 19, 97, 0.343);
+    border-radius: 5px; 
+    
+}
+.links-container a, .phone-number{
+    color: #fff;
+    text-decoration:underline;
+}
 
+.links-container a:hover{
+    background-color: #4c9e9e;
+   
+}
+
+@media screen and (max-width:992px){
+    .about-details-container h2{
+        font-size: 16px;
+        align-items:start;
+    }
+    .about-details-container{
+        margin-top: 20px;
+      flex-direction: column;
+      
+  }
+  .myface{
+    margin-bottom:20px;
+  }
+ /* Right code for the nav bar and cards */
+ /* also need to figure out how this would look on a mobile device */
 }
