@@ -14,6 +14,10 @@ My objective in developing this site was to strike a balance between readability
 
 Feel free to explore, and thank you for considering my portfolio!
 
+## Demo
+
+![Portfolio Denmo](images/Portfolio-Gif.gif)
+
 ## Installation
 Follow these steps to set up and run the project locally on your machine.
 
