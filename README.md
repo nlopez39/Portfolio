@@ -5,9 +5,9 @@ Welcome to my mock-up portfolio designed for potential hiring managers. Crafting
 
 **Key Features**:
 
-* About Me: Discover insights into my background and professional journey.
-* Work/Projects: Dive into a showcase of my notable projects and accomplishments.
-* Contact Information: Find convenient ways to get in touch with me.
+* **About Me**: Discover insights into my background and professional journey.
+* **Projects**: Dive into a showcase of my notable projects and accomplishments.
+* **Contact Information**: Find convenient ways to get in touch with me.
 
 **Design Philosophy**: 
 My objective in developing this site was to strike a balance between readability and a unique representation of my personal style. Through this project, I gained valuable experience in creating responsive websites and mastering the utilization of flexbox for optimal design.
