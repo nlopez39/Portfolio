@@ -258,7 +258,7 @@ body,html{
     .myface{
       margin-bottom:20px;
     }
-
+    
 }
 
 @media screen and (max-width:580px) {
@@ -282,6 +282,9 @@ body,html{
     }
     .myface{
       margin-bottom:20px;
+    }
+    .about-container{
+        height: 50%;
     }
    
 
@@ -307,6 +310,9 @@ body,html{
     }
     .myface{
       margin-bottom:20px;
+    }
+    .about-container{
+        height: 50%;
     }
    
 
