@@ -200,7 +200,7 @@ body,html{
     background-color: #4c9e9e;
    
 }
-
+/* --------------------------------- Responsive Layout-------------------------------------------------- */
 @media screen and (max-width:992px){
     .about-details-container h2{
         font-size: 16px;
@@ -214,9 +214,7 @@ body,html{
   .myface{
     margin-bottom:20px;
   }
-  
- /* Right code for the nav bar and cards */
- /* also need to figure out how this would look on a mobile device' */
+
 }
 @media screen and (max-width: 768px) {
     .navbar {
