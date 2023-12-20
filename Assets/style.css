@@ -270,31 +270,66 @@ body,html{
     .navbar {
         flex-direction:column;
         align-items: center;
-        height:50%;
-        width:100%;
+        /* height:50%;
+        width:100%; */
      }
      .navbar a{
-        font-size: 32px;
+        flex-direction:row;
+        align-items: center;
+        font-size: 15px;
      }
+     .navbar li{
+         margin-left:0px;
+        
+        
+    }
      .logo{
-        font-size: 50px; 
+        font-size: 30px; 
      }
       .about-details-container h2{
-          font-size:20px;
-          align-items:start;
+          font-size:14px;
+          white-space: normal;
+          margin-bottom: 10px;
 
       }
       .about-details-container{
-        margin-top:10px;
+        display: flex;
         flex-direction: column;
-        margin-bottom:0;
+        align-items: start;
+        padding: 20px;
+        margin: 10px;
+        /* margin-top:20px; */
+        
+       
         
     }
     .myface{
       margin-bottom:20px;
+        width:50px;
+        
     }
+    
     .about-container{
         height: 50%;
+    }
+    .project1-container{
+        height:20rem;
+    }
+    .project-details-container{
+        height:10rem;
+        width:10rem;
+        
+    }
+    .project-sub-titles{
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .project-section-main {
+     
+        margin-top:2rem;
+        margin-bottom:5rem;
+        padding:40px; 
+        /* background-color: #3e5858; */
     }
    
 
