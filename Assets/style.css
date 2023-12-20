@@ -38,6 +38,7 @@ body,html{
 .navbar a{
     color:#fff;
     padding:20px;
+   
 }
 /* hover property for each menu option */
 .navbar li:hover {
@@ -233,6 +234,9 @@ body,html{
       
   }
   .myface{
+    margin-bottom:20px;
+  }
+  .logo{
     margin-bottom:20px;
   }
     
