@@ -142,7 +142,7 @@ body,html{
     height:30rem;
 }
 
-.project1-title, .project-sub-title{
+.project1-title, .project-sub-title, .project-sub-titles{
     text-align: left;
     font-size: 32px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -264,7 +264,7 @@ body,html{
 }
 
 
-
+/* resizing page on a mobile device */
 @media screen and (max-width:480px) {
     
     .navbar {
@@ -280,8 +280,7 @@ body,html{
      }
      .navbar li{
          margin-left:0px;
-        
-        
+            
     }
      .logo{
         font-size: 30px; 
@@ -305,12 +304,12 @@ body,html{
     }
     .myface{
       margin-bottom:20px;
-        width:50px;
+        width:100px;
         
     }
     
     .about-container{
-        height: 50%;
+        height: 70%;
     }
     .project1-container{
         height:20rem;
